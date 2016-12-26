@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AdultTicketsSoldLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AdultTicketsSoldLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="AdultTicketsSoldLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 103</value>
+  </data>
+  <data name="AdultTicketsSoldLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 25</value>
+  </data>
+  <data name="AdultTicketsSoldLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="AdultTicketsSoldLabel.Text" xml:space="preserve">
+    <value>Tickets Sold:</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketsSoldLabel.Name" xml:space="preserve">
+    <value>AdultTicketsSoldLabel</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketsSoldLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketsSoldLabel.Parent" xml:space="preserve">
+    <value>AdultTicketSalesBox</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketsSoldLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PricePerAdultLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PricePerAdultLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PricePerAdultLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 54</value>
+  </data>
+  <data name="PricePerAdultLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 25</value>
+  </data>
+  <data name="PricePerAdultLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="PricePerAdultLabel.Text" xml:space="preserve">
+    <value>Price Per Ticket:</value>
+  </data>
+  <data name="&gt;&gt;PricePerAdultLabel.Name" xml:space="preserve">
+    <value>PricePerAdultLabel</value>
+  </data>
+  <data name="&gt;&gt;PricePerAdultLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PricePerAdultLabel.Parent" xml:space="preserve">
+    <value>AdultTicketSalesBox</value>
+  </data>
+  <data name="&gt;&gt;PricePerAdultLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AdultTicketsSoldField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 100</value>
+  </data>
+  <data name="AdultTicketsSoldField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="AdultTicketsSoldField.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketsSoldField.Name" xml:space="preserve">
+    <value>AdultTicketsSoldField</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketsSoldField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketsSoldField.Parent" xml:space="preserve">
+    <value>AdultTicketSalesBox</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketsSoldField.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PricePerAdultField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 50</value>
+  </data>
+  <data name="PricePerAdultField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="PricePerAdultField.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PricePerAdultField.Name" xml:space="preserve">
+    <value>PricePerAdultField</value>
+  </data>
+  <data name="&gt;&gt;PricePerAdultField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PricePerAdultField.Parent" xml:space="preserve">
+    <value>AdultTicketSalesBox</value>
+  </data>
+  <data name="&gt;&gt;PricePerAdultField.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AdultTicketSalesBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="AdultTicketSalesBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 160</value>
+  </data>
+  <data name="AdultTicketSalesBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AdultTicketSalesBox.Text" xml:space="preserve">
+    <value>Adult Ticket Sales</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketSalesBox.Name" xml:space="preserve">
+    <value>AdultTicketSalesBox</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketSalesBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketSalesBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AdultTicketSalesBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ChildTicketsSoldLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChildTicketsSoldLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChildTicketsSoldLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 103</value>
+  </data>
+  <data name="ChildTicketsSoldLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 25</value>
+  </data>
+  <data name="ChildTicketsSoldLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ChildTicketsSoldLabel.Text" xml:space="preserve">
+    <value>Tickets Sold:</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketsSoldLabel.Name" xml:space="preserve">
+    <value>ChildTicketsSoldLabel</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketsSoldLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketsSoldLabel.Parent" xml:space="preserve">
+    <value>ChildTicketSalesBox</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketsSoldLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PricePerChildField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 50</value>
+  </data>
+  <data name="PricePerChildField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="PricePerChildField.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PricePerChildField.Name" xml:space="preserve">
+    <value>PricePerChildField</value>
+  </data>
+  <data name="&gt;&gt;PricePerChildField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PricePerChildField.Parent" xml:space="preserve">
+    <value>ChildTicketSalesBox</value>
+  </data>
+  <data name="&gt;&gt;PricePerChildField.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PricePerChildLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PricePerChildLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PricePerChildLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 54</value>
+  </data>
+  <data name="PricePerChildLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 25</value>
+  </data>
+  <data name="PricePerChildLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PricePerChildLabel.Text" xml:space="preserve">
+    <value>Price Per Ticket:</value>
+  </data>
+  <data name="&gt;&gt;PricePerChildLabel.Name" xml:space="preserve">
+    <value>PricePerChildLabel</value>
+  </data>
+  <data name="&gt;&gt;PricePerChildLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PricePerChildLabel.Parent" xml:space="preserve">
+    <value>ChildTicketSalesBox</value>
+  </data>
+  <data name="&gt;&gt;PricePerChildLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ChildTicketsSoldField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 100</value>
+  </data>
+  <data name="ChildTicketsSoldField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="ChildTicketsSoldField.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketsSoldField.Name" xml:space="preserve">
+    <value>ChildTicketsSoldField</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketsSoldField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketsSoldField.Parent" xml:space="preserve">
+    <value>ChildTicketSalesBox</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketsSoldField.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ChildTicketSalesBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 20</value>
+  </data>
+  <data name="ChildTicketSalesBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 160</value>
+  </data>
+  <data name="ChildTicketSalesBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ChildTicketSalesBox.Text" xml:space="preserve">
+    <value>Child Ticket Sales</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketSalesBox.Name" xml:space="preserve">
+    <value>ChildTicketSalesBox</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketSalesBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketSalesBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChildTicketSalesBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TotalGrossRevenueLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TotalGrossRevenueLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TotalGrossRevenueLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 150</value>
+  </data>
+  <data name="TotalGrossRevenueLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 25</value>
+  </data>
+  <data name="TotalGrossRevenueLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="TotalGrossRevenueLabel.Text" xml:space="preserve">
+    <value>Total Gross Revenue:</value>
+  </data>
+  <data name="&gt;&gt;TotalGrossRevenueLabel.Name" xml:space="preserve">
+    <value>TotalGrossRevenueLabel</value>
+  </data>
+  <data name="&gt;&gt;TotalGrossRevenueLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalGrossRevenueLabel.Parent" xml:space="preserve">
+    <value>GrossTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;TotalGrossRevenueLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TotalGrossRevenueField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 150</value>
+  </data>
+  <data name="TotalGrossRevenueField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="TotalGrossRevenueField.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TotalGrossRevenueField.Name" xml:space="preserve">
+    <value>TotalGrossRevenueField</value>
+  </data>
+  <data name="&gt;&gt;TotalGrossRevenueField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalGrossRevenueField.Parent" xml:space="preserve">
+    <value>GrossTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;TotalGrossRevenueField.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrossChildTicketSalesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GrossChildTicketSalesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GrossChildTicketSalesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 100</value>
+  </data>
+  <data name="GrossChildTicketSalesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 25</value>
+  </data>
+  <data name="GrossChildTicketSalesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="GrossChildTicketSalesLabel.Text" xml:space="preserve">
+    <value>Child Ticket Sales:</value>
+  </data>
+  <data name="&gt;&gt;GrossChildTicketSalesLabel.Name" xml:space="preserve">
+    <value>GrossChildTicketSalesLabel</value>
+  </data>
+  <data name="&gt;&gt;GrossChildTicketSalesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrossChildTicketSalesLabel.Parent" xml:space="preserve">
+    <value>GrossTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;GrossChildTicketSalesLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GrossAdultTicketSalesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GrossAdultTicketSalesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GrossAdultTicketSalesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 50</value>
+  </data>
+  <data name="GrossAdultTicketSalesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 25</value>
+  </data>
+  <data name="GrossAdultTicketSalesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="GrossAdultTicketSalesLabel.Text" xml:space="preserve">
+    <value>Adult Ticket Sales:</value>
+  </data>
+  <data name="&gt;&gt;GrossAdultTicketSalesLabel.Name" xml:space="preserve">
+    <value>GrossAdultTicketSalesLabel</value>
+  </data>
+  <data name="&gt;&gt;GrossAdultTicketSalesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrossAdultTicketSalesLabel.Parent" xml:space="preserve">
+    <value>GrossTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;GrossAdultTicketSalesLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GrossChildTicketSalesField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 100</value>
+  </data>
+  <data name="GrossChildTicketSalesField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="GrossChildTicketSalesField.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GrossChildTicketSalesField.Name" xml:space="preserve">
+    <value>GrossChildTicketSalesField</value>
+  </data>
+  <data name="&gt;&gt;GrossChildTicketSalesField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrossChildTicketSalesField.Parent" xml:space="preserve">
+    <value>GrossTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;GrossChildTicketSalesField.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GrossAdultTicketSalesField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 50</value>
+  </data>
+  <data name="GrossAdultTicketSalesField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="GrossAdultTicketSalesField.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GrossAdultTicketSalesField.Name" xml:space="preserve">
+    <value>GrossAdultTicketSalesField</value>
+  </data>
+  <data name="&gt;&gt;GrossAdultTicketSalesField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrossAdultTicketSalesField.Parent" xml:space="preserve">
+    <value>GrossTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;GrossAdultTicketSalesField.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GrossTicketRevenueBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 200</value>
+  </data>
+  <data name="GrossTicketRevenueBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 210</value>
+  </data>
+  <data name="GrossTicketRevenueBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GrossTicketRevenueBox.Text" xml:space="preserve">
+    <value>Gross Ticket Revenue</value>
+  </data>
+  <data name="&gt;&gt;GrossTicketRevenueBox.Name" xml:space="preserve">
+    <value>GrossTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;GrossTicketRevenueBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrossTicketRevenueBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrossTicketRevenueBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TotalNetRevenueLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TotalNetRevenueLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TotalNetRevenueLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 150</value>
+  </data>
+  <data name="TotalNetRevenueLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 25</value>
+  </data>
+  <data name="TotalNetRevenueLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="TotalNetRevenueLabel.Text" xml:space="preserve">
+    <value>Total Net Revenue:</value>
+  </data>
+  <data name="&gt;&gt;TotalNetRevenueLabel.Name" xml:space="preserve">
+    <value>TotalNetRevenueLabel</value>
+  </data>
+  <data name="&gt;&gt;TotalNetRevenueLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalNetRevenueLabel.Parent" xml:space="preserve">
+    <value>NetTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;TotalNetRevenueLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NetAdultTicketSalesField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 50</value>
+  </data>
+  <data name="NetAdultTicketSalesField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="NetAdultTicketSalesField.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;NetAdultTicketSalesField.Name" xml:space="preserve">
+    <value>NetAdultTicketSalesField</value>
+  </data>
+  <data name="&gt;&gt;NetAdultTicketSalesField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetAdultTicketSalesField.Parent" xml:space="preserve">
+    <value>NetTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;NetAdultTicketSalesField.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TotalNetRevenueField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 150</value>
+  </data>
+  <data name="TotalNetRevenueField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="TotalNetRevenueField.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;TotalNetRevenueField.Name" xml:space="preserve">
+    <value>TotalNetRevenueField</value>
+  </data>
+  <data name="&gt;&gt;TotalNetRevenueField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalNetRevenueField.Parent" xml:space="preserve">
+    <value>NetTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;TotalNetRevenueField.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NetChildTicketSalesField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 100</value>
+  </data>
+  <data name="NetChildTicketSalesField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="NetChildTicketSalesField.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;NetChildTicketSalesField.Name" xml:space="preserve">
+    <value>NetChildTicketSalesField</value>
+  </data>
+  <data name="&gt;&gt;NetChildTicketSalesField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetChildTicketSalesField.Parent" xml:space="preserve">
+    <value>NetTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;NetChildTicketSalesField.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="NetChildTicketSalesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NetChildTicketSalesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NetChildTicketSalesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 100</value>
+  </data>
+  <data name="NetChildTicketSalesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 25</value>
+  </data>
+  <data name="NetChildTicketSalesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="NetChildTicketSalesLabel.Text" xml:space="preserve">
+    <value>Child Ticket Sales:</value>
+  </data>
+  <data name="&gt;&gt;NetChildTicketSalesLabel.Name" xml:space="preserve">
+    <value>NetChildTicketSalesLabel</value>
+  </data>
+  <data name="&gt;&gt;NetChildTicketSalesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetChildTicketSalesLabel.Parent" xml:space="preserve">
+    <value>NetTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;NetChildTicketSalesLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NetAdultTicketSalesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NetAdultTicketSalesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NetAdultTicketSalesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 50</value>
+  </data>
+  <data name="NetAdultTicketSalesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 25</value>
+  </data>
+  <data name="NetAdultTicketSalesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="NetAdultTicketSalesLabel.Text" xml:space="preserve">
+    <value>Adult Ticket Sales:</value>
+  </data>
+  <data name="&gt;&gt;NetAdultTicketSalesLabel.Name" xml:space="preserve">
+    <value>NetAdultTicketSalesLabel</value>
+  </data>
+  <data name="&gt;&gt;NetAdultTicketSalesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetAdultTicketSalesLabel.Parent" xml:space="preserve">
+    <value>NetTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;NetAdultTicketSalesLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NetTicketRevenueBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 200</value>
+  </data>
+  <data name="NetTicketRevenueBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 210</value>
+  </data>
+  <data name="NetTicketRevenueBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NetTicketRevenueBox.Text" xml:space="preserve">
+    <value>Net Ticket Revenue</value>
+  </data>
+  <data name="&gt;&gt;NetTicketRevenueBox.Name" xml:space="preserve">
+    <value>NetTicketRevenueBox</value>
+  </data>
+  <data name="&gt;&gt;NetTicketRevenueBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetTicketRevenueBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NetTicketRevenueBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CalculateBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 430</value>
+  </data>
+  <data name="CalculateBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 60</value>
+  </data>
+  <data name="CalculateBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="CalculateBtn.Text" xml:space="preserve">
+    <value>&amp;Calculate Ticket Revenue</value>
+  </data>
+  <data name="&gt;&gt;CalculateBtn.Name" xml:space="preserve">
+    <value>CalculateBtn</value>
+  </data>
+  <data name="&gt;&gt;CalculateBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CalculateBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CalculateBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ClearBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ClearBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 430</value>
+  </data>
+  <data name="ClearBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 60</value>
+  </data>
+  <data name="ClearBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ClearBtn.Text" xml:space="preserve">
+    <value>&amp;Clear</value>
+  </data>
+  <data name="&gt;&gt;ClearBtn.Name" xml:space="preserve">
+    <value>ClearBtn</value>
+  </data>
+  <data name="&gt;&gt;ClearBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClearBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ClearBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ExitBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ExitBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 430</value>
+  </data>
+  <data name="ExitBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 60</value>
+  </data>
+  <data name="ExitBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ExitBtn.Text" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="&gt;&gt;ExitBtn.Name" xml:space="preserve">
+    <value>ExitBtn</value>
+  </data>
+  <data name="&gt;&gt;ExitBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExitBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExitBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 24</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>856, 506</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Theater Revenue - Aaron Dancer - 12/25/2016</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
